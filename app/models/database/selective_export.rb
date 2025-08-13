@@ -151,7 +151,7 @@ class Database::SelectiveExport
         end
       end
 
-      yield file
+      yield file #
     end
   end
 end
